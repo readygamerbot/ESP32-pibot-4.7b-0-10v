@@ -1,7 +1,7 @@
 /*
   pibot_i2s_6_axis_map.h - An embedded CNC Controller
 
-  Driver code for ESP32
+  Driver code for ESP32 
 
   Part of grblHAL
 
