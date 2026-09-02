@@ -96,7 +96,7 @@
 #endif
 #endif
 
-#define AUXOUTPUT0_PIN          GPIO_NUM_13 // Spindle PWM/10 V
+#define AUXOUTPUT0_PIN          GPIO_NUM_4 // aux 
 #define AUXOUTPUT2_PIN          GPIO_NUM_12 // Laser
 #if !MODBUS_ENABLE
 #define AUXOUTPUT1_PIN          GPIO_NUM_15 // Spindle enable
@@ -108,7 +108,7 @@
 
 // Define driver spindle pins
 #if DRIVER_SPINDLE_ENABLE & SPINDLE_PWM
-#define SPINDLE_PWM_PIN         GPIO_NUM_4
+#define SPINDLE_PWM_PIN         GPIO_NUM_13
 #endif
 #if (DRIVER_SPINDLE_ENABLE & SPINDLE_ENA)
   #ifdef AUXOUTPUT1_PIN
